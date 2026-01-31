@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5
       - name: Run script
-        run: python scripts/update_time.py
+        run: python scripts/write_time.py
       - name: commit and push changes
         run: |
           git config user.name "github-actions[bot]"

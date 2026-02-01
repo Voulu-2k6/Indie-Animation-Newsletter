@@ -22,7 +22,7 @@ query = {
 q = QueryArticlesIter.initWithComplexQuery(query)
 items = []
 
-for article in q.execQuery(er, maxItems=3):
+for article in q.execQuery(er, maxItems=4):
     obj = {
         "title": article.get("title"),
         "url": article.get("url"),

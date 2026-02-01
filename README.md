@@ -1,2 +1,3 @@
 # Indie-Animation-Newsletter
-A daily email newsletter using GitHub Actions to run a Python script with NewsAPI and SendGrid.
+A blog that updates daily using GitHub Actions to run a Python script with NewsAPI.
+Site made with React, Tailwind, TypeScript

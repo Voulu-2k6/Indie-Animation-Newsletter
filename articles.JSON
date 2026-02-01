@@ -1,10 +1,20 @@
 [
-    {
-        "title": "Test article 1",
-        "url": "nothing.com"
-    },
-    {
-        "title": "Test article 2",
-        "url": "nothing1.com"
-    }
+  {
+    "title": "Sailor Moon Gets Major Production Update for New Original Show Ahead of April Premiere",
+    "url": "https://www.cbr.com/sailor-moon-new-story-shining-theater-update/",
+    "image": "https://static0.cbrimages.com/wordpress/wp-content/uploads/2025/10/netflix-has-good-news-for-sailor-moon-fans.jpg?q=70&fit=crop&w=1200&h=628&dpr=1",
+    "date": "2026-01-28"
+  },
+  {
+    "title": "Kozo Shioya, Dragon Ball Voice of Majin Buu, Dies at 70",
+    "url": "https://www.cbr.com/kozo-shioya-dead/",
+    "image": "https://static0.cbrimages.com/wordpress/wp-content/uploads/2024/04/every-majin-buu-form-in-dragon-ball-ranked-1.jpg?q=70&fit=crop&w=1200&h=628&dpr=1",
+    "date": "2026-01-28"
+  },
+  {
+    "title": "Frieren Releases Final Season 2 Preview Ahead of Official Crunchyroll Premiere",
+    "url": "https://www.cbr.com/frieren-season-2-final-preview-official-crunchyroll-premiere/",
+    "image": "https://static0.cbrimages.com/wordpress/wp-content/uploads/2026/01/videoframe_40268.png?q=70&fit=crop&w=1200&h=628&dpr=1",
+    "date": "2026-01-11"
+  }
 ]

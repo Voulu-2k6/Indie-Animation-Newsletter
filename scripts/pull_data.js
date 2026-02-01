@@ -1,4 +1,4 @@
-fetch("indie-animation-newsletter/articles.JSON")
+fetch("Indie-Animation-Newsletter/articles.JSON")
   .then(response => response.json())
   .then(data => {
     // 'data' is now an array of articles

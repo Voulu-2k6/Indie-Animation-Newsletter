@@ -11,7 +11,7 @@ news_api_key = os.getenv("NEWSAPI_KEY")
 er = EventRegistry(apiKey = news_api_key)
 query = {
   "$query": {
-    "keyword": '"anime news"',
+    "keyword": '"animation"',
     "keywordLoc": "body"
   },
   "$filter": {
@@ -22,7 +22,7 @@ query = {
 q = QueryArticlesIter.initWithComplexQuery(query)
 items = []
 
-for article in q.execQuery(er, maxItems=4):
+for article in q.execQuery(er, maxItems=8):
     obj = {
         "title": article.get("title"),
         "url": article.get("url"),

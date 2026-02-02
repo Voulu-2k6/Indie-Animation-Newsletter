@@ -1,4 +1,4 @@
-fetch("../articles.JSON")
+fetch("https://voulu-2k6.github.io/Indie-Animation-Newsletter/articles.JSON")
   .then(response => response.json())
   .then(data => {
     // 'data' is now an array of articles

@@ -19,9 +19,12 @@ function populateArticle(articles) {
 
     div.innerHTML = `
     <div class="item">
-        <img src="${item.image}" alt="${item.title}" />
+      <img src="${item.image}" alt="${item.title}" />
+      <div class="item-text">
         <h2>${item.title}</h2>
-        <a href="${item.url}" target="_blank">Visit Link</a>
+        <a href="${item.url}" target="_blank">View</a>
+        <p class="date">${item.date}</p>
+      </div>
     </div>
     `;
 

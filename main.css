@@ -1,9 +1,32 @@
-div {
+.item {
     border-radius: 4px;
     background-color: grey;
-    color: white;
     padding: 8px;
     margin-bottom:10px;
-    align-self: stretch;   /* fills the cross axis (horizontal in flex-col) */
-    min-width: 0;
+    align-self: stretch;   
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+    box-sizing: border-box;
+}
+
+.item img {
+    max-height: 25vh;
+    width: auto;
+}
+
+.item-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* optional, aligns to top */
+}
+
+h2 {
+    color: white;
+}
+
+.item-text a {
+  color: lightblue;
+  text-decoration: underline;
 }

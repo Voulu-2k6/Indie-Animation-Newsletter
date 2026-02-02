@@ -18,7 +18,11 @@ function populateArticle(articles) {
     div.classList.add("article-item"); // optional CSS class
 
     div.innerHTML = `
-      <h2><a href="${item.url}" target="_blank">${item.title}</a></h2>
+    <div class="item">
+        <img src="${item.image}" alt="${item.title}" />
+        <h2>${item.title}</h2>
+        <a href="${item.url}" target="_blank">Visit Link</a>
+    </div>
     `;
 
     home.appendChild(div);
